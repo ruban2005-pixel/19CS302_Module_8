@@ -21,59 +21,40 @@ If n>49 print Greater than 49.
 
 forty one
 
-AIM:
-To write a C program to print the lowercase English word corresponding to the number.
 
-Algorithm
+## Program
 
-1.Start the program and declare an integer variable to store input.
+```
 
-2.Read the integer input from the user.
-
-3.Use a switch or if-else ladder to match numbers from 41 to 49 with their word form.
-
-4.If the number is greater than 49, print "Greater than 49".
-
-5.End the program.
-
-Program
-
-#include <stdio.h>
-
+#include<stdio.h>
 int main()
 {
     int n;
-    scanf("%d", &n);
-
-    if(n == 41)
-        printf("forty one\n");
-    else if(n == 42)
-        printf("forty two\n");
-    else if(n == 43)
-        printf("forty three\n");
-    else if(n == 44)
-        printf("forty four\n");
-    else if(n == 45)
-        printf("forty five\n");
-    else if(n == 46)
-        printf("forty six\n");
-    else if(n == 47)
-        printf("forty seven\n");
-    else if(n == 48)
-        printf("forty eight\n");
-    else if(n == 49)
-        printf("forty nine\n");
-    else if(n > 49)
-        printf("Greater than 49\n");
-
-    return 0;
+    scanf("%d",&n);
+    if(n==71)
+    printf("seventy one\n");
+    else if(n==72)
+    printf("seventy two\n");
+    else if(n==73)
+    printf("seventy three\n");
+    else if(n==74)
+    printf("seventy four\n");
+    else if(n==75)
+    printf("seventy five\n");
+    else if(n==76)
+    printf("seventy six\n");
+    else if(n==77)
+    printf("seventy seven\n");
+    else if(n==78)
+    printf("seventy eight\n");
+    else if(n==79)
+    printf("seventy nine\n");
+    else 
+    printf("Greater than 79\n");
 }
 
-output:
+```
+## Output
 
-![image](https://github.com/user-attachments/assets/b238ad7e-62b2-411d-a2ed-066b267bae5f)
+<img width="408" height="194" alt="Screenshot 2026-03-19 190848" src="https://github.com/user-attachments/assets/904bcf28-79ad-4af4-abca-fd85422dd174" />
 
-
-
-Result:
-    Thus the program was executed and the output was verified successfully.
